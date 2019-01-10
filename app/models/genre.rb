@@ -8,6 +8,7 @@ class Genre < ActiveRecord::Base
   end
 
   def artist_count
+    binding.pry
     self.artists.size
   end
 
